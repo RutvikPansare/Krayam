@@ -1,0 +1,44 @@
+{
+  "name": "krayam",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.104.1",
+    "@hookform/resolvers": "^5.4.0",
+    "@supabase/ssr": "^0.10.3",
+    "@supabase/supabase-js": "^2.106.1",
+    "date-fns": "^4.3.0",
+    "framer-motion": "^11.3.21",
+    "fuse.js": "^7.4.2",
+    "lucide-react": "^1.16.0",
+    "next": "14.2.5",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "puppeteer": "^23.11.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hook-form": "^7.78.0",
+    "recharts": "^3.8.1",
+    "resend": "^6.12.4",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "dotenv": "^17.4.2",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "tsx": "^4.22.4",
+    "typescript": "^5"
+  }
+}
